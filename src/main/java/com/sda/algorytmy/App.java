@@ -8,11 +8,11 @@ import java.util.List;
  *
  */
 public class App {
-    public static void main( String[] args )
+    public static void main( String[] args ) {
 
-    {
+  /*  {
         /*Box<Integer> box1 = new Box (new Integer(12));
-        Box<Float> box2 = new Box (new Float (12.32));*/
+        Box<Float> box2 = new Box (new Float (12.32));
 
         List<Integer> integerList = new ArrayList<>();
 
@@ -51,9 +51,10 @@ public class App {
         stringList.add ("Przemek");
 
         for (String el: stringList) {
-            System.out.println(el);
-        }
-
+            System.out.println(el);*/
+  //      }
+        List<Integer> list = new ArrayList<>();
+        list.add(6);
         System.out.println( "Hello World!" );
     }
 }
