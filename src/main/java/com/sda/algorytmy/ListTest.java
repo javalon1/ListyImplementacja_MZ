@@ -13,7 +13,13 @@ public class ListTest {
         list.add(5);
         list.remove(2);
 
-        MyList <Integer> list1 = newLinkedListImpl ();
+        MyList<Integer> list1 = new LinkedListImpl();
+
+        list.add(1);
+        list.add(2);
+        list.add(3);
+
+        System.out.println(list1);
 
     }
 }
