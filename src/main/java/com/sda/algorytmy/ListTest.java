@@ -15,11 +15,12 @@ public class ListTest {
 
         MyList<Integer> list1 = new LinkedListImpl();
 
-        list.add(1);
-        list.add(2);
-        list.add(3);
+        list1.add(1);
+        list1.add(2);
+        list1.add(3);
 
-        System.out.println(list1);
+        System.out.println(list);
+        list1.printList();
 
     }
 }

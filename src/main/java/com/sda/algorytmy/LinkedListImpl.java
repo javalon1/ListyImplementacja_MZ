@@ -30,6 +30,15 @@ public class LinkedListImpl<E> implements MyList<E> {
 
     }
 
+    public void printList () {
+
+        Node tmp = head;
+        while (tmp !=null) {
+            System.out.println(tmp.data);
+            tmp=tmp.next;
+        }
+    }
+
     @Override
     public String toString() {
         return "LinkedListImpl{" +
